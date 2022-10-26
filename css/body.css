@@ -1,0 +1,16 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: #14213e;
+    font-family: 'Montserrat', sans-serif;
+    color: #353535;
+    text-align: center;
+    line-height: 1.5;
+    padding: 0;
+}

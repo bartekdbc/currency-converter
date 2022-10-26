@@ -1,0 +1,15 @@
+.header {
+    color: #FCA311;
+    text-align: center;
+    background-color: #14213e;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 10px 0px;
+    padding: 1px;
+}
+
+.header__special {
+    font-family: 'Comforter Brush', cursive;
+    font-size: 40px;
+    font-weight: 500;
+}

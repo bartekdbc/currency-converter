@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator walutowy by dbc ®</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/body.css" rel="stylesheet" />
+    <link href="css/container.css" rel="stylesheet" />
+    <link href="css/header.css" rel="stylesheet" />
+    <link href="css/form.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Inspiration&family=Montserrat:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <header class="header">
+    Kalkulator walutowy by <span class="header__special">dbc</span>
+  </header>
+  <body class="body">
+    <div class="container">
+      <form class="js-form">
+        <fieldset class="form__fieldset">
+          <legend class="form__legend"></legend>
+          <p>
+            <label>
+              <span class="form__labelText">Kwota*:</span>
+              <input
+                class="form__field js-amount"
+                name="PLN"
+                type="number"
+                min="0.01"
+                step="any"
+                placeholder="PLN"
+                autofocus
+                required
+              />
+            </label>
+          </p>
+          <p>
+            <label>
+              <span class="form__labelText">Waluta*:</span>
+              <select class="form__field js-currency" name="currency" required>
+                <option value="EUR">Euro</option>
+                <option value="USD">Dolar amerykański</option>
+                <option value="CHF">Frank szwajcarski</option>
+                <option value="GBP">Funt brytyjski</option>
+                <option value="HKD">Dolar Hongkongu</option>
+              </select>
+            </label>
+          </p>
+          <p>
+            <button class="form__button">PRZELICZ</button>
+          </p>
+          <p class="form__result">
+            <strong class="js-result">💸 💸</strong>
+          </p>
+          <p>*- wymagane pola</p>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+  <footer class="footer">
+    Kursy walut pobierane są z Narodowego Banku Polskiego.<br />
+    Aktualne na dzień: 2022-10-24
+  </footer>
+</html>
