@@ -1,4 +1,4 @@
-# Currency Converter 📇
+# Currency Converter 💱
 
 ![Bartek](https://github.com/bartekdbc/currency-converter/blob/main/images/share.png)
 
@@ -10,7 +10,7 @@
 - Preview
 - Technologies
 
-## Demo 🕹️
+## Demo 🎮
 
 You can find a demo version [here](https://bartekdbc.github.io/currency-converter/).
 
@@ -28,7 +28,7 @@ Application was created as a practical section part of  YouCode Frontend Develop
 
 Below you can find user's manual to this application.
 
-## Manual
+## Manual 🕹️
 
 1. Enter a value that you want to exchange.
 2. Select one of five currencies from the list.
