@@ -1,7 +1,4 @@
 # Currency Converter 💱
-
-![Bartek](https://github.com/bartekdbc/currency-converter/blob/main/images/share.png)
-
 ## Table of content 
 
 - Demo
