@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kalkulator walutowy by dbc ®</title>
+    <link rel="icon" href="https://github.com/bartekdbc/currency-converter/blob/main/images/us-dollar-coin-color-icon.png">
+    <meta property="og:image" content="https://github.com/bartekdbc/currency-converter/blob/main/images/share.png">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -25,12 +27,12 @@
       rel="stylesheet"
     />
   </head>
-  <header class="header">
-    Kalkulator walutowy by <span class="header__special">dbc</span>
-  </header>
   <body class="body">
     <div class="container">
       <form class="js-form">
+        <h1 class="form__header">
+          Kalkulator walutowy by <span class="form__special">dbc</span>
+        </h1>
         <fieldset class="form__fieldset">
           <legend class="form__legend"></legend>
           <p>
@@ -52,27 +54,25 @@
             <label>
               <span class="form__labelText">Waluta*:</span>
               <select class="form__field js-currency" name="currency" required>
-                <option value="EUR">Euro</option>
-                <option value="USD">Dolar amerykański</option>
-                <option value="CHF">Frank szwajcarski</option>
-                <option value="GBP">Funt brytyjski</option>
-                <option value="HKD">Dolar Hongkongu</option>
+                <option value="EUR">🇪🇺 Euro</option>
+                <option value="USD">🇺🇸 Dolar amerykański</option>
+                <option value="CHF">🇨🇭 Frank szwajcarski</option>
+                <option value="GBP">🇬🇧 Funt brytyjski</option>
+                <option value="HKD">🇭🇰 Dolar Hongkongu</option>
               </select>
             </label>
           </p>
           <p>
-            <button class="form__button">PRZELICZ</button>
+            <button class="form__button">Przelicz</button>
           </p>
           <p class="form__result">
-            <strong class="js-result">💸 💸</strong>
+            <span class="js-result">💸 💸</span>
           </p>
           <p>*- wymagane pola</p>
+          <p>Kursy walut pobierane są z Narodowego Banku Polskiego.<br />
+            Aktualne na dzień: <strong>2022-10-24</strong></p>
         </fieldset>
       </form>
     </div>
   </body>
-  <footer class="footer">
-    Kursy walut pobierane są z Narodowego Banku Polskiego.<br />
-    Aktualne na dzień: 2022-10-24
-  </footer>
 </html>

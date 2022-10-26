@@ -7,10 +7,17 @@ html {
 }
 
 .body {
-    background-color: #14213e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/money.png);
+    background-size: cover;
+    background-position: center center;
+    background-color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     color: #353535;
     text-align: center;
     line-height: 1.5;
     padding: 0;
+    margin: 20px;
 }
