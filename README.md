@@ -1,6 +1,6 @@
 # Currency Converter 💱
 
-![Bartek](https://github.com/bartekdbc/currency-converter/blob/main/images/share.png)
+![Bartek](https://github.com/bartekdbc/currency-converter/blob/main/images/share.png =200x)
 
 ## Table of content 
 
