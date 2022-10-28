@@ -1,11 +1,11 @@
 # Currency Converter 💱
 ## Table of content 
 
-- Demo
-- Description
-- Manual
-- Preview
-- Technologies
+- [Demo](#demo-🎮)
+- [Description](#description-📖)
+- [Manual](#manual-🕹️)
+- [Preview](#preview-👀)
+- [Technologies](#technologies-🤖)
 
 ## Demo 🎮
 
